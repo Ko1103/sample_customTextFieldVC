@@ -14,6 +14,7 @@
 		E627785E208E230C008F11BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E627785C208E230C008F11BC /* LaunchScreen.storyboard */; };
 		E6277869208E230C008F11BC /* customtextfieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6277868208E230C008F11BC /* customtextfieldTests.swift */; };
 		E6277874208E230C008F11BC /* customtextfieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6277873208E230C008F11BC /* customtextfieldUITests.swift */; };
+		E6277882208E239B008F11BC /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6277881208E239B008F11BC /* TextFieldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E627786F208E230C008F11BC /* customtextfieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customtextfieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6277873208E230C008F11BC /* customtextfieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customtextfieldUITests.swift; sourceTree = "<group>"; };
 		E6277875208E230C008F11BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6277881208E239B008F11BC /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E627785A208E230C008F11BC /* Assets.xcassets */,
 				E627785C208E230C008F11BC /* LaunchScreen.storyboard */,
 				E627785F208E230C008F11BC /* Info.plist */,
+				E6277881208E239B008F11BC /* TextFieldViewController.swift */,
 			);
 			path = customtextfield;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				E6277856208E230B008F11BC /* ViewController.swift in Sources */,
 				E6277854208E230B008F11BC /* AppDelegate.swift in Sources */,
+				E6277882208E239B008F11BC /* TextFieldViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
